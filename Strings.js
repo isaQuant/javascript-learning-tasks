@@ -1,3 +1,5 @@
+
+// using double quotes inside a String
 var myString = "I am a \"double quoted\" string inside \"double quotes\"";
 console.log(myString)
 
@@ -13,6 +15,13 @@ console.log(myString)
  \f     form feed
  ***/
 
+// concatenate two Strings
 var str = "I come first. ";
 str += "I come second.";
 console.log(str)
+
+// character of a String
+var firstName = "Ada";
+var secondLetterOfFirstName = firstName[1];
+console.log(secondLetterOfFirstName)
+
