@@ -2,7 +2,6 @@
 // initialization of variables
 var a;
 let b = 2;
-
 console.log(a)
 console.log(b)
 
@@ -23,3 +22,19 @@ var properCamelCase;
 PRoperCamelCAse = "A String";
 console.log(properCamelCase)
 console.log(PRoperCamelCAse)
+
+// operations
+var product = 8 * 10;
+var quotient = 66 / 7;
+console.log(quotient)
+
+// incrementing
+var myVar = 87;
+myVar += 1;
+myVar++;
+console.log(myVar)
+
+// remainder
+var remainder;
+remainder = 11 % 3;
+
