@@ -1,3 +1,8 @@
+// Single quotes and double quotes
+var string1 = "this is a String";
+var string2 = 'this is also a String';
+let lengthString1 = string1.length;
+
 
 // using double quotes inside a String
 var myString = "I am a \"double quoted\" string inside \"double quotes\"";
@@ -22,6 +27,10 @@ console.log(str)
 
 // character of a String
 var firstName = "Ada";
-var secondLetterOfFirstName = firstName[1];
+let secondLetterOfFirstName = firstName[1];
 console.log(secondLetterOfFirstName)
 
+// extracting String parts
+let fruits = "Apple, Banana, Kiwi";
+let partOfFruits = fruits.slice(7,13);
+console.log(partOfFruits);
